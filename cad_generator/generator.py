@@ -10,7 +10,7 @@ class CADGenerator:
 
         print("Initializing CAD Generator...")
         print(f"Loading model from Hugging Face Hub: {model_repo_id}")
-        
+
         self.tokenizer = AutoTokenizer.from_pretrained(model_repo_id)
         self.model = AutoModelForCausalLM.from_pretrained(
             model_repo_id,
