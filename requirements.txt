@@ -1,3 +1,6 @@
 transformers
 torch
-accelerate
+sentencepiece
+gradio
+matplotlib
+Pillow
