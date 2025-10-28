@@ -1,6 +1,6 @@
 transformers
 torch
 sentencepiece
-gradio
+streamlit
 matplotlib
 Pillow
